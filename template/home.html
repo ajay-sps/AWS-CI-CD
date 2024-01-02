@@ -3,9 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Homepage</title>
 </head>
+<style>
+    body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: #34495e;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+</style>
 <body>
-    <h3>this is my homepage</h3>
+
+    <header>
+        <h1>luxeLane</h1>
+        <p>Welcome to our Homepage!</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#section1">Section 1</a></li>
+            <li><a href="#section2">Section 2</a></li>
+            <li><a href="#section3">Section 3</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="section1">
+            <h2>Section 1</h2>
+            <p>This is the first section of our homepage.</p>
+        </section>
+
+        <section id="section2">
+            <h2>Section 2</h2>
+            <p>Explore amazing content in this section.</p>
+        </section>
+
+        <section id="section3">
+            <h2>Section 3</h2>
+            <p>Connect with us and stay updated!</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Your Brand. All rights reserved.</p>
+    </footer>
+
 </body>
 </html>
