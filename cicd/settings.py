@@ -81,16 +81,6 @@ DATABASES = {
     }
 }
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.mysql',
-#         'NAME': 'django_database',
-#         'USER': 'admin',
-#         'PASSWORD': 'admin123',
-#         'HOST': 'django-databasee.cxqju0syck9r.ap-south-1.rds.amazonaws.com',
-#         'PORT': 3306,
-#     }
-# }
 
 
 # Password validation
